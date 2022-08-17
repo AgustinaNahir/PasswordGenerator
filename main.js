@@ -8,7 +8,7 @@ const generatePassword = (base, length) => {
 }
 
 const generate = () => {
-    let length = parseINt(inputLength.value);
+    let length = parseInt(inputLength.value);
     let base = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTWXTZ";
     const numbers = "0123456789";
     const symbols = ".?,;-_¡!¿*%&/()[]{}|@><";
