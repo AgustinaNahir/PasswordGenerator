@@ -14,7 +14,7 @@ const generate = () => {
     const symbols = ".?,;-_¡!¿*%&/()[]{}|@><";
 
     if(checkbox1.checked) base+=numbers;
-    if(checkbox1.checked) base+=symbols;
+    if(checkbox2.checked) base+=symbols;
     
     generatedPassword.innerText = generatePassword (base, length);
 };
